@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Sparta.Types.Construction", "R5T.Sparta.Types.Construction\R5T.Sparta.Types.Construction.csproj", "{8F82B987-038A-4609-BFDB-5AEF0B8AB4E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Sparta.Types.Construction", "R5T.Sparta.Types.Construction\R5T.Sparta.Types.Construction.csproj", "{8F82B987-038A-4609-BFDB-5AEF0B8AB4E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Sparta.Types", "R5T.Sparta.Types\R5T.Sparta.Types.csproj", "{E98308E3-F803-4CC9-9C23-254EE7D70DEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Sparta.Types", "R5T.Sparta.Types\R5T.Sparta.Types.csproj", "{E98308E3-F803-4CC9-9C23-254EE7D70DEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Sparta.Types.Testing", "R5T.Sparta.Types.Testing\R5T.Sparta.Types.Testing.csproj", "{7C2F3474-5153-4EA5-89ED-54F4D716C59C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Sparta.Types.Testing", "R5T.Sparta.Types.Testing\R5T.Sparta.Types.Testing.csproj", "{7C2F3474-5153-4EA5-89ED-54F4D716C59C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{3DFFF22A-27CE-482C-88C1-D61E05B34118}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Stagira", "..\..\R5T.Stagira\source\R5T.Stagira\R5T.Stagira.csproj", "{CE001026-2DD5-4ABA-9127-12746A090F8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8F82B987-038A-4609-BFDB-5AEF0B8AB4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{7C2F3474-5153-4EA5-89ED-54F4D716C59C}.Release|x64.Build.0 = Release|Any CPU
 		{7C2F3474-5153-4EA5-89ED-54F4D716C59C}.Release|x86.ActiveCfg = Release|Any CPU
 		{7C2F3474-5153-4EA5-89ED-54F4D716C59C}.Release|x86.Build.0 = Release|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Debug|x64.Build.0 = Debug|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Debug|x86.Build.0 = Debug|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Release|x64.ActiveCfg = Release|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Release|x64.Build.0 = Release|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Release|x86.ActiveCfg = Release|Any CPU
+		{CE001026-2DD5-4ABA-9127-12746A090F8B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE001026-2DD5-4ABA-9127-12746A090F8B} = {3DFFF22A-27CE-482C-88C1-D61E05B34118}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEF56818-91E0-440F-B207-D94C08670982}
 	EndGlobalSection
 EndGlobal
